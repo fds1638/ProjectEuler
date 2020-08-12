@@ -1,7 +1,7 @@
 // Done August 12, 2020
 // Solves Project Euler problem 257, Angular Bisectors
 // https://projecteuler.net/problem=257
-// Difficulty: 85%
+// Difficulty: 85%. I am 611th person to solve this since 2009.
 
 // Given a triangle, find integer combinations of the sides a, b, c such that
 // when draw angular bisectors to define four smaller triangles, one of those
