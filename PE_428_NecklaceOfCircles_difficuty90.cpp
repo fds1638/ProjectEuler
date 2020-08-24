@@ -2,6 +2,7 @@
 // Solves Project Euler problem 428, A Necklace Of Circles
 // https://projecteuler.net/problem=428
 // Difficulty: 0.90 ( on a scale of 0 to 1 ).
+// I am the 213th person to solve this since the problem was posted in 2013.
 
 // This was the hardest Project Euler problem that I have done, and I am
 // very proud of having finished it. This code is really slow because I
