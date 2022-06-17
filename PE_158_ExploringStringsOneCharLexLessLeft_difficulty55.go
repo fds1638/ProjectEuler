@@ -45,7 +45,7 @@ func main() {
     go with_n_letters(n,c)
   }
 
-  //close(c)
+  //close(c) // Closing here doesn't work. Race conditions.
 
   var rc int = 0
   // Read from the channel as the results come in and re-calculate the overall max.
@@ -55,7 +55,7 @@ func main() {
     if rc==26 { close(c) } // Violates rule against receiver closing channel.
   }
   
-  // This doesn't seem needed since waiting for last 
+  // This doesn't seem needed since channel closed? 
   wg.Wait() 
 
   // Print final result.
